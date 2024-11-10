@@ -1,0 +1,32 @@
+/* =============== common ================= */
+.main-content {
+  width: 1400px;
+  max-width: calc(100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-top: 20px;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  border-radius: 999px;
+  background: #171100;
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    width: 100vw;
+    margin: 0;
+  }
+}
